@@ -8,12 +8,55 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!--<div class="popup popup-hidden">
+    <div class="popup-container">
+      <button class="popup-close" type="button"></button>
+      <form class="popup-form">
+        <h2 class="popup-label">ваш фидбек</h2>
+        <div class="popup-select-group">
+          <span class="popup-group-title">Как часто вы заходите на сайт?</span>
+          <select class="popup-select">
+            <option value="everyday" selected>Почти каждый день</option>
+            <option value="weekly">Один раз в неделю</option>
+            <option value="monthly">Один раз в месяц</option>
+          </select>
+        </div>
+        <div class="popup-radio-group">
+          <span class="popup-group-title">Вы подписаны на e-mail рассылку?</span>
+          <div class="radio-container">
+            <label class="radio-mark">
+              <input type="radio" class="radio" name="radio-group"></input>
+              <span class="radio-group-text">Да</span>
+            </label>
+            <label class="radio-mark">
+              <input type="radio" class="radio" name="radio-group"></input>
+              <span class="radio-group-text">Нет</span>
+            </label>
+          </div>
+        </div>
+        <div class="popup-form-row">
+          <label>
+            <span class="popup-group-title">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+            <textarea type="text" class="popup-row-field" placeholder="Может, больше рецептов?"></textarea>
+          </label>
+        </div>
+        <button class="button-feedback">отправить
+          <span class="visually-hidden-info">Отправить фитбек</span>
+        </button>
+      </form>
+    </div>  
+  </div>-->  
     <header class="header">
         <div class="header-container">
           <a href="#0" class="header-logo">
             <img class="header-logo-img" src="svg/noemi-logo.svg" alt="NOEMI">
           </a>  
           <nav class="menu">
+            <label>
+              <button class="menu-button">
+                <span class="menu-button-label"></span>
+              </button>
+            </label>
             <ul class="menu-list">
               <li class="menu-list-item">
                 <a class="menu-link" href="#0">главная</a>
@@ -38,36 +81,79 @@
         </div>
         <h1 class="header-label">Блог о творчестве, спорте, и образе жизни</h1>
     </header>
-      <article class="trends">
+    <article class="trends">
         <h2 class="trends-label">Сейчас в тренде</h2>
         <div class="trends-containers">
           <div class="trend-container trend-background1">
-            <div class="main-text-meta">
-              <ul class="meta-list">
-                <li class="meta-list-item">
-                  <a class="meta-link" href="#0">travel</a>
-                </li>
-                <li class="meta-list-item">
-                  <a class="meta-link" href="#0">health</a>
-                </li>
-              </ul>  
+            <div class="trend-text">
+              <div class="trend-text-meta">
+                <ul class="meta-list">
+                  <li class="meta-list-item">
+                    <a class="meta-link" href="#0">lifestyle</a>
+                  </li>
+                  <li class="meta-list-item">
+                    <a class="meta-link" href="#0">interior</a>
+                  </li>
+                </ul>  
+              </div>
+              <h3 class="trend-text-title">
+                <a class="trend-title-link" href="#0">Сейчас в тренде: сад на&nbspподоконнике</a>
+              </h3>
             </div>
-            <h3 class="text-title">
-              <a class="title-link" href="#0">10 мест, ради которых стоит проснуться на рассвете</a>
-            </h3>
           </div>
           <div class="trend-container trend-background2">
-            
+            <div class="trend-text">
+              <div class="trend-text-meta">
+                <ul class="meta-list">
+                  <li class="meta-list-item">
+                    <a class="meta-link" href="#0">food</a>
+                  </li>
+                </ul>  
+              </div>
+              <h3 class="trend-text-title">
+                <a class="trend-title-link" href="#0">сыры на красивых картинках из интернета: какие они на вкус?</a>
+              </h3>
+            </div>
           </div>
           <div class="trend-container trend-background3">
-            
+            <div class="trend-text">
+              <div class="trend-text-meta">
+                <ul class="meta-list">
+                  <li class="meta-list-item">
+                    <a class="meta-link" href="#0">lifestyle</a>
+                  </li>
+                  <li class="meta-list-item">
+                    <a class="meta-link" href="#0">travel</a>
+                  </li>
+                </ul>  
+              </div>
+              <h3 class="trend-text-title">
+                <a class="trend-title-link" href="#0">собираемся в первый поход в горы</a>
+              </h3>
+            </div>
           </div>
           <div class="trend-container trend-background4">
-            
+            <div class="trend-text">
+              <div class="trend-text-meta">
+                <ul class="meta-list">
+                  <li class="meta-list-item">
+                    <a class="meta-link" href="#0">food</a>
+                  </li>
+                  <li class="meta-list-item">
+                    <a class="meta-link" href="#0">health</a>
+                  </li>
+                </ul>  
+              </div>
+              <h3 class="trend-text-title">
+                <a class="trend-title-link" href="#0">Сейчас в тренде: сколько
+                  витамина c в лимонах?</a>
+              </h3>
+            </div>
+          </div>
           </div>
         </div>        
-      </article>
-      <div class="page">
+    </article>
+    <div class="page">
         <main class="main">
           <section class="main-containers">
             <article class="main-container">
@@ -341,8 +427,92 @@
            </div>
            </section>
         </aside>
+    </div>
+    <article class="products">
+      <h2 class="products-label">наши изделия</h2>
+      <div class="products-containers">
+        <div class="product-container ">
+          <div class="product-container-image product-container-background1">
+          </div>
+          <div class="product-container-text">
+            <h3 class="text-title">
+              <a class="title-link" href="#0">подушки на диван</a>
+            </h3>
+            <div class="product-copyright">
+              <span>
+                Набор из двух подушек с модными принтами. Видео о создании 
+                <a href="#0" class="product-copyright-link">здесь</a>
+              </span>
+            </div>
+            <div class="product-menubar">
+              <div class="product-menubar-price">
+                <span class="product-old-price">1000 &#8381</span>
+                <span class="product-new-price">800 &#8381</span>
+              </div>
+                <form class="product-menubar-button">
+                  <button class="button-store">в магазин
+                    <span class="visually-hidden-info">Перейти в магазин</span>
+                  </button>
+                </form>
+            </div>
+          </div>
+        </div>
+        <div class="product-container ">
+          <div class="product-container-image product-container-background2">
+          </div>
+            <div class="product-container-text">
+              <h3 class="text-title">
+                <a class="title-link" href="#0">Кукла «Зайчик»</a>
+              </h3>
+              <div class="product-copyright">
+                <span>
+                  Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена  
+                  <a href="#0" class="product-copyright-link">весенняя серия постов</a>
+                  в блоге и несколько подкастов.
+                </span>
+              </div>
+              <div class="product-menubar">
+                <div class="product-menubar-price">
+                  <span class="product-old-price"></span>
+                  <span class="product-new-price">3500 &#8381</span>
+                </div>
+                  <form class="product-menubar-button">
+                    <button class="button-store">в магазин
+                      <span class="visually-hidden-info">Перейти в магазин</span>
+                    </button>
+                  </form>
+              </div>
+            </div>
+        </div>
+        <div class="product-container ">
+          <div class="product-container-image product-container-background3">
+          </div>
+          <div class="product-container-text">
+            <h3 class="text-title">
+              <a class="title-link" href="#0">Шестиугольная рамка</a>
+            </h3>
+            <div class="product-copyright">
+              <span>
+                Необычная рамка для украшения дома из видео
+                <a href="#0" class="product-copyright-link">«Как сделать рамку из подручных средств за 30 минут»</a>
+              </span>
+            </div>
+            <div class="product-menubar">
+              <div class="product-menubar-price">
+                <span class="product-old-price">500 &#8381</span>
+                <span class="product-new-price">400 &#8381</span>
+              </div>
+                <form class="product-menubar-button">
+                  <button class="button-store">в магазин
+                    <span class="visually-hidden-info">Перейти в магазин</span>
+                  </button>
+                </form>
+            </div>
+          </div>
+        </div>
       </div>
-      <footer class="footer">
+    </article>
+    <footer class="footer"> 
         <address class="address">
           <ul class="footer-address-list">
           <li class="footer-address-item">
@@ -377,7 +547,6 @@
             <span class="footer-link-style">Copyright © 2009–2019 City Blog LLC.</span>
           </a>  
         </div>
-      </footer>
-        
+    </footer>    
 </body>
 </html>
