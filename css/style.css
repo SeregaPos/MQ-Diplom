@@ -560,6 +560,7 @@
   .sidebar-subscription-field:hover .visually-hidden-info, 
   .button-submit:hover .visually-hidden-info, 
   .social-icon:hover .visually-hidden-info,
+  .button-feedback:hover .visually-hidden-info,
   .button-store:hover .visually-hidden-info {
     top: 40px;
     height: auto;
