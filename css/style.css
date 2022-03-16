@@ -364,6 +364,7 @@
     padding: 63px 15px 65px;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
   }
   
   .main-container {
@@ -710,12 +711,14 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    overflow: hidden;
   }
 
   .product-container {
     width: 29.7%;
     position: relative;
     padding: 0 25px;
+    overflow: hidden;
   }
 
   .product-container::after {
@@ -1263,7 +1266,6 @@
     .page {
       padding: 40px 15px;
       flex-wrap: wrap;
-      overflow-x: hidden;
     }
     
     .main {
@@ -1341,14 +1343,9 @@
       margin-right: auto;
     }
 
-    .products-containers {
-      overflow: hidden;
-    }
-
     .product-container {
       width: 100%;
       margin-bottom: 24px;
-      overflow: hidden;
     }
 
     .product-container-picture {
