@@ -814,6 +814,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px; 
+    overflow: hidden;
   }
   
   .footer-address-list {
@@ -1262,6 +1263,7 @@
     .page {
       padding: 40px 15px;
       flex-wrap: wrap;
+      overflow-x: hidden;
     }
     
     .main {
@@ -1337,15 +1339,19 @@
       padding-bottom: 44px;
       margin-left: auto;
       margin-right: auto;
-  }
+    }
+
+    .products-containers {
+      overflow: hidden;
+    }
 
     .product-container {
       width: 100%;
       margin-bottom: 24px;
+      overflow: hidden;
     }
 
     .product-container-picture {
-      max-height: 493px;
       height: 80vw;
     }
 
