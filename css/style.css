@@ -461,6 +461,7 @@
   
   .sidebar {
     width: 270px;
+    margin-left: 37px;
   }
   
   .sidebar-label {
@@ -1019,11 +1020,7 @@
     }
 
     .main {
-      width: 61.3%;
-    }
-
-    .main-containers {
-      width: calc(100% - 37px);
+      width: calc(100% - 307px);
     }
     
     .main-container {
@@ -1170,10 +1167,10 @@
     }
 
     .header-logo {
-      padding: 175px 30px 0;
+      margin: 175px 30px 0;
       margin-left: auto;
       margin-right: auto;
-      width: 100%
+      width: 270px
     }
 
     .menu {
