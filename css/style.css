@@ -461,7 +461,6 @@
   
   .sidebar {
     width: 270px;
-    margin-left: 37px;
   }
   
   .sidebar-label {
@@ -1050,12 +1049,16 @@
       margin-top: 13px;
     }
 
-        .text-row {
+    .text-row {
       margin-top: 30px;
     }
 
     .text-copyright {
       margin-top: 26px;
+    }
+
+    .sidebar {
+      margin-left: 37px;
     }
 
     .products {
